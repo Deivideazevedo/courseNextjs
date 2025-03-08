@@ -1,0 +1,48 @@
+# Node.js dependencies em qualquer pasta
+*/node_modules/
+*/.pnp/
+*/.pnp.js
+
+# Build output de qualquer app
+*/.next/
+*/out/
+*/build/
+
+# Arquivos de ambiente de produção
+*/.env.local
+*/.env.*.local
+
+# Arquivos de ambiente local
+*/.env
+
+# Logs de debug
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
+
+# Configurações do VSCode
+*/.vscode/
+
+# Arquivos do sistema macOS
+*/.DS_Store
+
+# Logs de qualquer tipo
+*/logs/
+*/.log
+
+# Arquivos de IDE (como JetBrains)
+*/.idea/
+
+# Arquivos do sistema Windows
+*/Thumbs.db
+*/ehthumbs.db
+
+# Arquivos gerados pelo TypeScript ou Next.js
+*/.tsbuildinfo
+*/next-env.d.ts
+
+# Saídas de Next.js serverless
+*/.serverless/
+
+# Arquivos da plataforma Vercel
+*/.vercel/
